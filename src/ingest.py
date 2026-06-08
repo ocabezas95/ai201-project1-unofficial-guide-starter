@@ -33,20 +33,39 @@ def clean_text(text: str) -> str:
     return text
 
 
+def parse_header_fields(text: str):
+    """Pull the professor name and URL out of a document's header block."""
+    professor = ""
+    url = ""
+
+    professor_match = re.search(r"Professor:\s*(.+)", text)
+    if professor_match:
+        professor = professor_match.group(1).strip()
+
+    url_match = re.search(r"URL:\s*(\S+)", text)
+    if url_match:
+        url = url_match.group(1).strip()
+
+    return professor, url
+
+
 def chunk_text(text: str, chunk_size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP):
+    """Split a document into chunks.
+
+    Returns a list of dicts: {"text", "professor", "url"}. We embed only the
+    professor name plus the review body and keep the rest of the header
+    (department, university, course list, URL) out of the embedded text, since
+    that boilerplate is identical across every chunk and only dilutes the
+    semantic signal. The structured fields travel as metadata instead.
+    """
+    professor, url = parse_header_fields(text)
     chunks = []
 
     is_review_file = re.search(r"\n\s*review\s+\d+\s*:", text, flags=re.IGNORECASE)
 
     if is_review_file:
         review_blocks = re.split(r"\n\s*review\s+\d+\s*:", text, flags=re.IGNORECASE)
-
-        metadata_match = re.search(
-            r"Professor:.*?Reviews:",
-            text,
-            flags=re.IGNORECASE | re.DOTALL
-        )
-        metadata = metadata_match.group(0).strip() if metadata_match else ""
+        header = f"Professor: {professor}\n\n" if professor else ""
 
         for i, block in enumerate(review_blocks):
             block = block.strip()
@@ -57,15 +76,19 @@ def chunk_text(text: str, chunk_size: int = CHUNK_SIZE, overlap: int = CHUNK_OVE
             if i == 0 and "Course:" not in block:
                 continue
 
-            review_text = f"{metadata}\n\nReview:\n{block}".strip()
+            review_text = f"{header}Review:\n{block}".strip()
 
             if len(review_text) <= chunk_size:
-                chunks.append(review_text)
+                pieces = [review_text]
             else:
-                chunks.extend(character_chunk(review_text, chunk_size, overlap))
+                pieces = character_chunk(review_text, chunk_size, overlap)
+
+            for piece in pieces:
+                chunks.append({"text": piece, "professor": professor, "url": url})
 
     else:
-        chunks = character_chunk(text, chunk_size, overlap)
+        for piece in character_chunk(text, chunk_size, overlap):
+            chunks.append({"text": piece, "professor": professor, "url": url})
 
     return chunks
 
@@ -101,7 +124,9 @@ def process_documents():
                 "id": f"{doc['source']}_chunk_{i}",
                 "source": doc["source"],
                 "chunk_index": i,
-                "text": chunk
+                "professor": chunk["professor"],
+                "url": chunk["url"],
+                "text": chunk["text"]
             })
 
     OUTPUT_FILE.write_text(
