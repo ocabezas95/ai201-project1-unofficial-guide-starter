@@ -1,0 +1,78 @@
+Professor: James Wagner
+Department: Computer Science
+University: University of New Orleans
+Source: Rate My Professor
+URL: https://www.ratemyprofessors.com/professor/2184393
+
+Courses:
+CSCI 4401 - Principles Operating Systems I
+CSCI 4125 - Data Models and DBS Syst
+CSCI 5501 - Programming Language Structure
+
+Total reviews: 9 
+
+Reviews:
+
+Review 1:
+Course: CSCI 4401 - Principles Operating Systems I
+Overall Rating: 5.0
+Difficulty: 2.0
+Would Take Again: yes
+He is bald unfortunately, but good teacher
+
+Review 2:
+Course: CSCI 4401 - Principles Operating Systems I
+Overall Rating: 5.0
+Difficulty: 3.0
+Would Take Again: yes
+Attendance is mandatory, and the professor will record it manually. Both the midterm and final exams are open-book. There are 4+1 projects (with the last project counting as extra credit for the final). As long as you diligently complete the assignments and review the quizzes, you can easily got A. Reviewing the slides is the best way to study.
+
+Review 3:
+Course: CSCI 4401 - Principles Operating Systems I
+Overall Rating: 5.0
+Difficulty: 3.0
+Would Take Again: yes
+The mid-term and final exams are open-book exams. There are 10 phase projects, many of which offer extra credit. As long as you diligently do your assignment, you can easily get an A. Reviewing the slides is the best way to study.
+
+Review 4:
+course: CSCI 4125 - Data Models and DBS Syst
+Overall Rating: 5.0
+Difficulty: 3.0
+Would Take Again: yes
+The mid-term and final exams are open-book exams. There are 10 phase projects, many of which offer extra credit. As long as you diligently do your assignment, you can easily get an A. Reviewing the slides is the best way to study.
+
+review 5:
+course: CSCI 5501 - Programming Language Structure
+Overall Rating: 1.0
+Difficulty: 5.0
+Would Take Again: no
+He is the worst ever teacher. I have ever seen. You will het nothing no science no grade. He is very bad in teaching and delivering the knowledge. I hope that I will not see him again not taking a class with him. I had very hard time with him, he always under estimate the student in front of him.
+
+review 6:
+Course: CSCI 4401 - Principles Operating Systems I
+Overall Rating: 5.0
+Difficulty: 1.0
+Would Take Again: yes
+He gave like 35 points of bonus credit on the final exam (a super easy extra credit assignment that he gave every a 25/25 on even if they did it wrong...) and undergrads always are given 10 bonus points. I didn't finish my last 2 assignments and got 90/95 on both. He also gives bonus credit on one of the four assignments. Easy professor and class
+
+review 7:
+Course: CSCI 4401 - Principles Operating Systems I
+Overall Rating: 1.0
+Difficulty: 3.0
+Would Take Again: no
+His lectures are boring and difficult to follow, but following his lectures is the only way to learn the material that will be on the quizzes and exams. His lecture slides are terrible. Midterm grades: #students-grade 11-A 7-B 3-C 6-D 13-F 33% of students made an unsatisfactory grade.
+
+review 8:
+course: CSCI 4125 - Data Models and DBS Syst
+Overall Rating: 1.0
+Difficulty: 5.0
+Would Take Again: no
+He decides hiding incorrect answers for quizzes and exams is a good idea which means the student will have no idea what areas need improving. After the midterm a student asked him if he could talk about the midterm exam with him to which the professor replied, "I mean you can, but a lot of people got A's." More people got F's than any other grade
+
+review 9:
+course: CSCI 4125 - Data Models and DBS Syst
+Overall Rating: 1.0
+Difficulty: 3.0
+Would Take Again: no
+Wagner fortunately has pretty easy, straightforward homework. He's very tough on students with questions (unless you participate a lot). Unless you have home/work responsibilities, DO NOT take him for the online section. He is not forgiving if you miss anything or need extra help. Ask the discord instead. No late work is accepted. STRICT attendance
+

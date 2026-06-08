@@ -1,0 +1,34 @@
+Professor: Manuel Zumbieta
+Department: Computer Science
+University: University of New Orleans
+Source: Rate My Professor
+URL: https://www.ratemyprofessors.com/professor/2932743
+
+Courses:
+CSCI 4452 - Cloud Computing
+CSCI 1583 - Software Design and Development I
+
+Total Reviews: 3
+
+Reviews:
+
+Review 1:
+Course: CSCI 4452 - Cloud Computing
+Overall Rating: 5.0
+Difficulty: 4.0
+Would Take Again: yes
+I cannot tell you in 350 characters how amazing this class was for me. This is the single most useful class I took in UNO. everything Manuel did from start to finish was PERFECT. Presentations helped students who were behind learn from other students. No exams, just a final project. This class was actually so much fun. I will never forget him.
+
+Review 2:
+Course: CSCI 4452 - Cloud Computing
+Overall Rating: 2.0
+Difficulty: 4.0
+Would Take Again: no
+He's a cool guy but this class is easily one of the most busywork classes you'll take. A bunch of homework, a bunch of presenting, and occasional random quizzes. If you don't show up to class you will not have a good time. He is accessible outside of class, and does give good feedback for assignments.
+
+Review 3:
+Course: CSCI 1583 - Software Design and Development I
+Overall Rating: 5.0
+Difficulty: 3.0
+Would Take Again: yes
+He knows what he's talking about, answers questions in a way that's understandable to someone with no knowledge beforehand of computer science, and is helpful outside of class. Definitely wants his students to succeed. Some test questions aren't discussed at all in lecture and are only in the textbook, so you have to read it. LOTS of extra credit.

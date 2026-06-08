@@ -1,0 +1,41 @@
+Professor: Abdullah Newaz
+Department: Computer Science
+University: University of New Orleans
+Source: Rate My Professor
+URL: https://www.ratemyprofessors.com/professor/2826004
+
+Courses:
+CSCI 6650 - Intelligent Agents
+CSCI 1583 - Software Design and Development I
+
+Total reviews: 4
+
+Reviews:
+
+Review 1:
+Course: CSCI 6650 - Intelligent Agents
+Overall Rating: 5.0
+Difficulty: 4.0
+Would Take Again: yes
+His Lectures were amazing.
+
+Review 2:
+Course: CSCI 6650 - Intelligent Agents
+Overall Rating: 5.0
+Difficulty: 2.0
+Would Take Again: yes
+You have to do a lot of homeworks but his lectures are very good.
+
+Review 3:
+Course: CSCI 1583 - Software Design and Development I
+Overall Rating: 2.0
+Difficulty: 3.0
+Would Take Again: no
+When I had him a year ago, he was very difficult to understand. He had a thick accent, and when he was just talking his English wasn't clear. He also underestimated how little we in the class knew, given that it was an intro class. Our first assignment was a Hello World program and the second was a weird thing no one knew how to do. He curved a ton
+
+Review 4:
+Course: CSCI 1583 - Software Design and Development I
+Overall Rating: 2.0
+Difficulty: 3.0
+Would Take Again: no
+Doesn't like teaching, nonchalant, course was easy and unclear, confusing

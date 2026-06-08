@@ -1,0 +1,35 @@
+Source: Reddit
+Subreddit: r/UNO
+Thread: CS at UNO
+URL: https://www.reddit.com/r/UNO/comments/1o5uoo/cs_at_uno/
+
+Discussion:
+I'm a senior in high school and am just wondering what the CS course at UNO is like. I'm looking into UNO and LaTech and want to know which would be better for me. Any thoughts?
+
+I know nothing of the computer world, but I went to Tech and UNO. Was going to UNO when Katrina hit, and then went to Tech for a year until I went back to UNO, where I graduated.
+
+Anyway, the college experience at Tech is far and away better. UNO is a commuter school, and the campus life is nearly dead. The town of Ruston feels like it is half made up of college students, and it's a great place if you want that type of experience.
+
+Historically speaking this has been true. However, UNO has implemented residency requirements for first year students and have really tried to promote campus life in recent years.
+
+Its still nowhere close to a school like LSU, but we don't have a football program.
+
+I got my CS minor from UNO and I was pleased with the education I received. I can't compare it to Louisiana Tech, but the Network Security work they are doing at UNO is pretty well regarded.
+
+If it is any help, I am a grad student at Georgia Tech and I got a full ride based upon good work at UNO. There is also a Louisiana Tech grad student in my department.
+
+Again, I can't speak about LaTech, but UNO is a pretty nice campus right on the Lakefront. There's tons of stuff to do, but very little "campus" life, at least when I was there. On the plus side, it's not in the middle of nowhere like LaTech, but I think the "college experience" at LaTech may be better.
+
+Thanks for the feedback! UNO is also within 20 minutes of my house so I am trying to weigh the pros and cons of going there. I was told Tech has better job placement but I think both schools would do me well.
+
+It also kind of depends on what kind of person you are. If you have trouble focusing with all your shiftless friends around, then maybe getting away is good. If you have a good circle of friends and feel you can go to school the place you're familiar with, then it might not be a problem. Some people, even those used to partying in a city like New Orleans for high school, can't really handle "small-town college life". It's kind of a personal decision in that respect.
+
+I am a CS student at UNO and it is a pretty good program. They are about to revamp the curriculum a little and it should be even better after that. As u/mikelj said, the security program is very good. I know nothing of the La Tech program, but I'm not sure heading out of town is going to help you out that much. Also, the job situation in New Orleans is pretty good right now, including some great internship opportunities for students. Not sure how things are in Ruston, but I would guess they are not as good.
+
+I got my undergraduate degree in CS from UNO and am currently pursuing my PhD in CS at UNO. The program is easily the best in the state. Its not just a "learn to program" kind of curriculum, you will understand the underlying concepts of Computer Science by the time you graduate.
+
+Also, the Information Assurance program is one of the best in the country. We have a Reverse Engineering class that is one of probably 5 like it in the whole country where the students disassemble malware to understand how it works.
+
+My only piece of advice if you are from New Orleans is to live on campus. I floundered my first go-round at UNO because I lived at home and basically treated it like high school 2.0.
+
+Reverse Engineering was the best class I've ever taken.

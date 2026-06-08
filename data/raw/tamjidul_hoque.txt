@@ -1,0 +1,56 @@
+Professor: Tamkidul Hoque
+Department: Computer Science
+University: University of New Orleans
+Source: Rate My Professor
+URL: https://www.ratemyprofessors.com/professor/2005140
+
+Courses:
+CSCI 6635 - Theory & Applications for Pattern Recognition
+CSCI 4587 - Machine Learning I
+CSCI 2450 - Machine Structure and Assembly Language Programming
+
+Total reviews: 6
+
+Reviews:
+
+review 1:
+Course: CSCI 6635 - Theory & Applications for Pattern Recognition
+Overall Rating: 5.0
+Difficulty: 1.0
+Would Take Again: yes
+Very informative course and the explanations are very easy to follow. Grading is easy.
+
+review 2:
+Course: CSCI 4587 - Machine Learning I
+Overall Rating: 1.0
+Difficulty: 1.0
+Would Take Again: no
+Free A if you can memorize page long math proofs, cause the 5 exams are literally the exact study guide questions. Teaching is terrible and lectures are useless. Want a free A? Take it. Want to actually learn ML? You'll learn nothing, maybe just some ML buzz words. A community college could probably teach us more about ML than him. Ng's CS229 >>>
+
+review 3:
+Course: CSCI 2450 - Machine Structure and Assembly Language Programming
+Overall Rating: 3.0
+Difficulty: 3.0
+Would Take Again: no
+accent is very hard to understand
+
+review 4:
+Course: CSCI 2450 - Machine Structure and Assembly Language Programming
+Overall Rating: 4.0
+Difficulty: 2.0
+Would Take Again: yes
+He uses Power Point and sometimes uses the board to explain some concepts. He knows his stuff and wants to make sure you know the material too, so ask questions if you have any. Homeworks are really tough so make sure you don't do them last minute. His tests are pretty straight forward so make sure you study from the study guide. Easy A
+
+review 5:
+Course: CSCI 6635 - Theory & Applications for Pattern Recognition
+Overall Rating: 5.0
+Difficulty: 1.0
+Would Take Again: yes
+Very helpful teacher. He assisted students in every way possible.
+
+review 6:
+Course: CSCI 6635 - Theory & Applications for Pattern Recognition
+Overall Rating: 3.5
+Difficulty: 4.0
+Would Take Again: yes
+Teaching is very good, expects students to perform , you can expect many tests and assignments but most of the things necessary for solving them will be discussed

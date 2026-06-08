@@ -1,0 +1,79 @@
+Professor: Christopher Summa
+Department: Computer Science
+University: University of New Orleans
+Source: Rate My Professor
+URL: https://www.ratemyprofessors.com/professor/1697892
+
+Courses: 
+CSCI 2125 - Data Structures and Algorithms 
+CSCI 2120 - Software Design and Development II
+CSCI 1583 - Software Design and Development I
+
+
+Total reviews: 9
+
+Reviews:
+
+review 1:
+Course: CSCI 2125 - Data Structures and Algorithms 
+Overall Rating: 5.0
+Difficulty: 3.0
+Would Take Again: yes
+Amazing professor. Will explain things and concepts as many times as you need. Tests are straightforward, but they really do test your understanding of lecture so don't expect to fly by this class. Take notes, ask questions. Professor was available for office hours and through email. He also posts and records all lectures, even in person ones.
+
+review 2:
+course: CSCI 2125 - Data Structures and Algorithms 
+Overall Rating: 4.0
+Difficulty: 4.0
+Would Take Again: yes
+He's a great teacher and explains things very clearly. In order to do well you must study everything he teaches crystal clear 100% especially the study guide. Tests are all short answer. Only negative is he gives a slight feeling like he's burnt out or tired of teaching and comes off rude sometimes. Overall fantastic for learning and great teacher
+
+review 3:
+Course: CSCI 2125 - Data Structures and Algorithms 
+Overall Rating: 2.0
+Difficulty: 4.0
+Would Take Again: no
+Exams are hard because the material is hard. Harder than Java 1-2. Other institutions tend to offer this course near the junior/ senior point of curriculum. At UNO it's a per-requisite for MOST C.S classes. You must pass in order to progress. Do all of the assignments, don't miss out on the points, use them as a pillow for the midterm and final.
+
+review 4:
+Course: CSCI 2125 - Data Structures and Algorithms 
+Overall Rating: 3.0
+Difficulty: 4.0
+Would Take Again: yes
+Summa is a good professor. However, due to the way classes are scheduled, it is a lot of material; do review a week before the exam again to clear any confusion. This course is not like Java I or II. Set aside a day to dedicate to reviewing the material. The homework is difficult and does not really get asked in the exam. Do not count on a curve.
+
+review 5:
+Course: CSCI 2120 - Software Design and Development II
+Overall Rating: 5.0
+Difficulty: 2.0
+Would Take Again: yes
+I agree he could be more organized but everything he says in lecture is what you will need for exams. I highly recommend re-watching lectures. Also, if you really want to do well, just read the book. Be prepared. Especially more-so for 2125. Having taken other cs courses in other schools I can tell you he's one of the good ones.
+
+review 6:
+Course: CSCI 2120 - Software Design and Development II
+Overall Rating: 3.0
+Difficulty: 4.0
+Would Take Again: yes
+Dr. Summa knows what he's talking about, problem is some students don't. His homework is hard so make sure to get help. He'll only help you so much even if you need it further broken down. Study for test. This class is not an easy A, unless you know what you're doing. Overall he's not bad but you'll definitely work for a good grade.
+
+review 7:
+Course: CSCI 2120 - Software Design and Development II
+Overall Rating: 2.0
+Difficulty: 3.0
+Would Take Again: no
+Dr. Summa is decent professor. For every class he reads straight from the powerpoint and some classes create a code in front of you. He's a good teacher for those who can pick up things easily. I did good in his class, there were a few things i completely understood and other classes I'm completely lost. If you're a visual learner you'll be fine
+
+review 8:
+Course: CSCI 1583 - Software Design and Development I
+Overall Rating: 5.0
+Difficulty: 3.0
+Would Take Again: yes
+Summa is a great professor, he explains things well. I came into computer science not knowing ANYTHING about coding and what not and having Summa made me more confident in my knowledge of the subject. Be sure to pay attention to his lectures and you can always ask questions. Don't slack off or you won't do as well!
+
+review 9:
+Course: CSCI 1583 - Software Design and Development I
+Overall Rating: 4.0
+Difficulty: 4.0
+Would Take Again: yes
+Summa is a really nice guy and will thoroughly explain things if you are lost
+

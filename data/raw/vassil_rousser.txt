@@ -1,0 +1,64 @@
+Professor: Vassil Rousser
+Department: Computer Science
+University: University of New Orleans
+Source: Rate My Professor
+URL: https://www.ratemyprofessors.com/professor/136536
+
+Courses:
+CSCI 4621 - Intro Cyber Security
+CSCI 4311 - Computer Networks & Telecomm
+CSCI 4401 - Principles Operating Systems I
+
+Total reviews: 8
+
+Reviews:
+
+review 1: 
+Course: CSCI 4621 - Intro Cyber Security
+Overall Rating: 2.0
+Difficulty: 4.0
+Would Take Again: no
+Even though the professor do teach and I do appreciate that he tries to branch out to real-world things, the class is overall unorganized. We haven't gotten a single HW after midterm and he doesn't really pace well. The tests have little to do with the lectures and some parts may not even be in the book. Also this is for CSCI 4623.
+
+review 2:
+Course: CSCI 4621 - Intro Cyber Security
+Overall Rating: 1.0
+Difficulty: 5.0
+Would Take Again: no
+This professor's approach is very inconsistent and unfair. Most stuff on his exams weren't covered in his lectures, which makes studying feels pointless. The exams are entirely short answer and he grades it very harshly with no clear rubric.Some students exams will receive a curve and some who needs it the most wouldn't.
+
+review 3:
+Course: CSCI 4621 - Intro Cyber Security
+Overall Rating: 1.0
+Difficulty: 5.0
+Would Take Again: no
+Very boring and monotone lectures. You'll never see your assignments he gave you at the beginning of the semester and the week before the Finals. There's no way he's the CS department head when there are way better professors who could probably do his job better and actually know how to teach. PLEASE save yourself and take someone else!
+
+review 4:
+Course: CSCI 4311 - Computer Networks & Telecomm
+Overall Rating: 1.0
+Difficulty: 5.0
+Would Take Again: no
+Some of the most boring and stale lectures with no coordination or planning for homework and tests. Expect a boring lecture daily, with one midterm and final. The teacher doesn't seem to care, just lecturing with vague, ungraded homework. There's nothing going on in the class
+
+review 5:
+Course: CSCI 4401 - Principles Operating Systems I
+Overall Rating: 4.0
+Difficulty: 4.0
+Would Take Again: yes
+Read the textbook or pay close attending in class. Attendance isn't recorded and it may take all semester for grades to come back. Go to him early and ask for help if you need. He is a caring professor, but we are adults and shouldn't need to be spoon-fed like children. Start on the projects early and ask questions to get a focus for test material.
+
+review 7:
+Course: CSCI 4401 - Principles Operating Systems I
+Overall Rating: 4.0
+Difficulty: 4.0
+Would Take Again: yes
+Lectures are good, but can be dry and homework assignments are reasonable, but still challenging. The hardest part are the tests. For essay questions, be very specific and wordy. For math questions, don't worry about finding the exact numerical value, rather think logically about the problem and show your process.
+
+review 8:
+Course: CSCI 4311 - Computer Networks & Telecomm
+Overall Rating: 2.5
+Difficulty: 4.0
+Would Take Again: no
+I dont want to say "the worst teacher" .Yes he is a nice guy , but his class is so boring. what about his exams? well if you are taking a class from him you will be surprised. and no body wants to learn physics by slides right. it is same for network. Dr Roussev there are a lot of job out there you don't have to teach. teaching is not for you.
+
