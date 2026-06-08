@@ -36,43 +36,52 @@ def clean_text(text: str) -> str:
 def chunk_text(text: str, chunk_size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP):
     chunks = []
 
-    # Try to split by review boundaries first
-    review_blocks = re.split(r"\n\s*review\s+\d+\s*:", text, flags=re.IGNORECASE)
+    is_review_file = re.search(r"\n\s*review\s+\d+\s*:", text, flags=re.IGNORECASE)
 
-    # Keep the professor metadata with each review when possible
-    metadata_match = re.search(
-        r"Professor:.*?Reviews:",
-        text,
-        flags=re.IGNORECASE | re.DOTALL
-    )
-    metadata = metadata_match.group(0).strip() if metadata_match else ""
+    if is_review_file:
+        review_blocks = re.split(r"\n\s*review\s+\d+\s*:", text, flags=re.IGNORECASE)
 
-    for i, block in enumerate(review_blocks):
-        block = block.strip()
+        metadata_match = re.search(
+            r"Professor:.*?Reviews:",
+            text,
+            flags=re.IGNORECASE | re.DOTALL
+        )
+        metadata = metadata_match.group(0).strip() if metadata_match else ""
 
-        if not block:
-            continue
+        for i, block in enumerate(review_blocks):
+            block = block.strip()
 
-        # Skip the metadata-only block if it does not contain review text
-        if i == 0 and "Course:" not in block:
-            continue
+            if not block:
+                continue
 
-        review_text = f"{metadata}\n\nReview:\n{block}".strip()
+            if i == 0 and "Course:" not in block:
+                continue
 
-        # If the review block is short enough, keep it as one chunk
-        if len(review_text) <= chunk_size:
-            chunks.append(review_text)
-        else:
-            # If a review is too long, fall back to overlapping character chunks
-            start = 0
-            while start < len(review_text):
-                end = start + chunk_size
-                chunk = review_text[start:end].strip()
+            review_text = f"{metadata}\n\nReview:\n{block}".strip()
 
-                if chunk:
-                    chunks.append(chunk)
+            if len(review_text) <= chunk_size:
+                chunks.append(review_text)
+            else:
+                chunks.extend(character_chunk(review_text, chunk_size, overlap))
 
-                start += chunk_size - overlap
+    else:
+        chunks = character_chunk(text, chunk_size, overlap)
+
+    return chunks
+
+
+def character_chunk(text: str, chunk_size: int, overlap: int):
+    chunks = []
+    start = 0
+
+    while start < len(text):
+        end = start + chunk_size
+        chunk = text[start:end].strip()
+
+        if chunk:
+            chunks.append(chunk)
+
+        start += chunk_size - overlap
 
     return chunks
 
