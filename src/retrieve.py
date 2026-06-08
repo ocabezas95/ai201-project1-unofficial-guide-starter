@@ -10,6 +10,11 @@ COLLECTION_NAME = "uno_cs_reviews"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 TOP_K = 4
 
+# Load the embedding model once at import time and reuse it. Constructing a
+# SentenceTransformer reads the model weights from disk, so doing it per query
+# added hundreds of ms to every request for no benefit.
+_model = SentenceTransformer(EMBEDDING_MODEL)
+
 
 def load_chunks():
     with CHUNKS_FILE.open("r", encoding="utf-8") as f:
@@ -19,8 +24,6 @@ def load_chunks():
 def build_vector_store():
     chunks = load_chunks()
 
-    model = SentenceTransformer(EMBEDDING_MODEL)
-
     client = chromadb.PersistentClient(path=CHROMA_DIR)
 
     # Delete old collection if it exists so we don't duplicate chunks
@@ -29,19 +32,28 @@ def build_vector_store():
     except Exception:
         pass
 
-    collection = client.create_collection(name=COLLECTION_NAME)
+    # Use cosine distance so distances are comparable across documents and the
+    # MAX_DISTANCE threshold in query.py is meaningful. Without this, Chroma
+    # defaults to squared L2, whose values run high (~0.9-1.4) even for good
+    # matches and silently fail the relevance filter.
+    collection = client.create_collection(
+        name=COLLECTION_NAME,
+        metadata={"hnsw:space": "cosine"}
+    )
 
     texts = [chunk["text"] for chunk in chunks]
     ids = [chunk["id"] for chunk in chunks]
     metadatas = [
         {
             "source": chunk["source"],
-            "chunk_index": chunk["chunk_index"]
+            "chunk_index": chunk["chunk_index"],
+            "professor": chunk.get("professor", ""),
+            "url": chunk.get("url", "")
         }
         for chunk in chunks
     ]
 
-    embeddings = model.encode(texts).tolist()
+    embeddings = _model.encode(texts).tolist()
 
     collection.add(
         documents=texts,
@@ -54,11 +66,10 @@ def build_vector_store():
 
 
 def retrieve(query: str, top_k: int = TOP_K):
-    model = SentenceTransformer(EMBEDDING_MODEL)
     client = chromadb.PersistentClient(path=CHROMA_DIR)
     collection = client.get_collection(name=COLLECTION_NAME)
 
-    query_embedding = model.encode([query]).tolist()[0]
+    query_embedding = _model.encode([query]).tolist()[0]
 
     results = collection.query(
         query_embeddings=[query_embedding],
@@ -68,10 +79,13 @@ def retrieve(query: str, top_k: int = TOP_K):
     retrieved = []
 
     for i in range(len(results["documents"][0])):
+        metadata = results["metadatas"][0][i]
         retrieved.append({
             "text": results["documents"][0][i],
-            "source": results["metadatas"][0][i]["source"],
-            "chunk_index": results["metadatas"][0][i]["chunk_index"],
+            "source": metadata["source"],
+            "chunk_index": metadata["chunk_index"],
+            "professor": metadata.get("professor", ""),
+            "url": metadata.get("url", ""),
             "distance": results["distances"][0][i]
         })
 
